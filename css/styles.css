@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: #333;
+}
+.container {
+  display: grid;
+  grid-template-columns: 20em 1fr;
+  gap: 1.4rem;
+}
+aside {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b26241;
+}
+main {
+  display: flex;
+  align-items: center;
+}
+nav img {
+  border-radius: 100%;
+  width: 12em;
+  height: 12em;
+  border: 0.4em solid #c37e65;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 25px 0 0 0;
+}
+nav ul li {
+  text-align: center;
+  padding-bottom: 1em;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #e2a38f;
+}
+nav ul li a.ativo {
+  font-weight: bold;
+  color: #fff;
+}
+
+/* index.html */
+h1, .contato a {
+  color: #b2623c;
+}
+h1 {
+  font-size: 3em;
+  margin-bottom: 0.1em;
+}
+h1 span {
+  font-weight: bold;
+  color: #333;
+}
+.contato {
+  padding-bottom: 1em;
+}
+.contato a {
+  text-decoration: none;
+}
+.redes-sociais {
+  padding-top: 1em;
+}
+.redes-sociais ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.redes-sociais ul li {
+  display: inline-block;
+  padding-right: 1em;
+}
+.redes-sociais ul li a {
+  display: block;
+  width: 2em;
+  height: 2em;
+}
+
+/* conhecimentos.html */
+ol#conhecimentos {
+  list-style: upper-alpha;
+  font-size: 1.5em;
+}
+
+
+/* objetivos.html */
+ol#objetivos {
+  list-style: disc;
+  font-size: 1.5em;
+}
